@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"clinic",
+		"teapot"
+	],
+	"name" : "MOPClientZoneServer",
+	"type" : "normal"
+}

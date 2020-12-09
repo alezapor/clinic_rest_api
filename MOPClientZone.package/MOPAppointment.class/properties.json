@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"patient",
+		"doctor",
+		"dateTime",
+		"specialization",
+		"status",
+		"report",
+		"invoice"
+	],
+	"name" : "MOPAppointment",
+	"type" : "normal"
+}

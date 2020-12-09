@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"title",
+		"firstName",
+		"lastName",
+		"specializationList"
+	],
+	"name" : "MOPDoctor",
+	"type" : "normal"
+}

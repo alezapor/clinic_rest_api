@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"performanceCode",
+		"name",
+		"cost"
+	],
+	"name" : "MOPMedCare",
+	"type" : "normal"
+}

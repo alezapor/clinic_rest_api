@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id",
+		"username",
+		"password",
+		"firstName",
+		"lastName",
+		"insuranceCard",
+		"address",
+		"dateOfBirth",
+		"email",
+		"appointmentList"
+	],
+	"name" : "MOPClient",
+	"type" : "normal"
+}

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cardNumber",
+		"owner",
+		"insuranceCompany",
+		"validFrom",
+		"validTo"
+	],
+	"name" : "MOPInsuranceCard",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"appointment",
+		"medicalCareList",
+		"status",
+		"dateOfIssue"
+	],
+	"name" : "MOPInvoice",
+	"type" : "normal"
+}
