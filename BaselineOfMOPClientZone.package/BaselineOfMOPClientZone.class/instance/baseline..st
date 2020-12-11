@@ -6,7 +6,10 @@ baseline: spec
 		do: [ spec
 				baseline: 'Teapot'
 				with: [ spec repository: 'github://zeroflag/Teapot/source' ].
+				spec
+				baseline: 'Mocketry'
+				with: [ spec repository: 'github://dionisiydk/Mocketry:v6.0.3' ].
 			spec
 				package: 'MOPClientZone' with: [ spec requires: 'Teapot' ];
 				package: 'MOPClientZone-Tests'
-					with: [ spec requires: 'MOPClientZone' ] ]
+					with: [ spec requires: #('MOPClientZone' 'Mocketry') ] ]
