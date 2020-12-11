@@ -9,4 +9,4 @@ baseline: spec
 			spec
 				package: 'MOPClientZone' with: [ spec requires: 'Teapot' ];
 				package: 'MOPClientZone-Tests'
-					with: [ spec requires: 'MOPCLientZone' ] ]
+					with: [ spec requires: 'MOPClientZone' ] ]
