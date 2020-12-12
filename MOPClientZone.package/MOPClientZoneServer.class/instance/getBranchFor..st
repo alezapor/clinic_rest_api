@@ -1,3 +1,3 @@
 actions
 getBranchFor: aTeaRequest 
-	^ clinic branchList at: (aTeaRequest at: #id) 
+	^ (MOPClinicBranchService withDbSession: session) get: (aTeaRequest at: #id) 

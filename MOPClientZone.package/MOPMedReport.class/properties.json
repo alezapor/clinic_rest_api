@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "MOPClientZone",
+	"super" : "MOPEntity",
+	"category" : "MOPClientZone-Entities",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

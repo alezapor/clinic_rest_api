@@ -1,0 +1,3 @@
+actions
+entityClass
+	^ MOPClinicBranch 

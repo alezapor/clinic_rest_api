@@ -1,0 +1,3 @@
+acccessing
+getSession
+	^ MOPDummyDatabaseSession default 

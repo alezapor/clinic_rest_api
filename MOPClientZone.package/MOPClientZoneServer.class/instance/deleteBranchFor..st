@@ -1,4 +1,4 @@
 actions
 deleteBranchFor: aTeaRequest
-	clinic branchList removeKey: (aTeaRequest at: #id).
+	(MOPClinicBranchService withDbSession: session) delete: (aTeaRequest at: #id).
 	^ 'Branch deleted'
