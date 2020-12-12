@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MOPClientZone-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"teapot",
+		"session",
+		"service"
+	],
+	"name" : "MOPController",
+	"type" : "normal"
+}

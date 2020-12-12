@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MOPDatabaseGlorpConnector",
+	"category" : "MOPClientZone-Database",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"entities",
+		"session"
+	],
+	"name" : "MOPPostgresDatabaseGlorpConnector",
+	"type" : "normal"
+}

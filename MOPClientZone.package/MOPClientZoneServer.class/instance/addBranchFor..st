@@ -1,9 +1,5 @@
 actions
 addBranchFor: aTeaRequest
-	clinic
-		addBranch:
-			(MOPClinicBranch new
-				code: (aTeaRequest at: #id);
-				name: (aTeaRequest at: #name);
-				yourself).
+	(MOPClinicBranchService withDbSession: session)
+		createWithName: (aTeaRequest at: #name).
 	^ 'Branch added'

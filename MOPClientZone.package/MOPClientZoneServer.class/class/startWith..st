@@ -1,6 +1,6 @@
 actions
-startWith: aClinic
+startWith: aConnector
 	^ self new
-		clinic: aClinic;
+		databaseConnector:  aConnector;
 		start;
 		yourself

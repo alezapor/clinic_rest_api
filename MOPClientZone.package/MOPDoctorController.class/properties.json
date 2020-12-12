@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MOPController",
+	"category" : "MOPClientZone-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MOPDoctorController",
+	"type" : "normal"
+}
