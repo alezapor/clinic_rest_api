@@ -6,8 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"username",
-		"password",
 		"firstName",
 		"lastName",
 		"insuranceCard",

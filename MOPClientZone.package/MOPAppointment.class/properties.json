@@ -9,8 +9,6 @@
 		"patient",
 		"doctor",
 		"dateTime",
-		"specialization",
-		"status",
 		"report",
 		"invoice"
 	],

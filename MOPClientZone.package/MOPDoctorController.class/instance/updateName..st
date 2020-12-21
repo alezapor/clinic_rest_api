@@ -3,4 +3,5 @@ updateName: aTeapotRequest
 	| doc |
 	doc := self service get: (aTeapotRequest at: #id).
 	doc firstName: (aTeapotRequest at: #firstName); lastName: (aTeapotRequest at: #lastName).
-	^ self service update: doc
+	self service update: doc.
+	^ 'Doctor''s name updated successfully!'

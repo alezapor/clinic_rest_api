@@ -1,4 +1,4 @@
-as yet unclassified
+tables
 tableForDOCTOR: aTable
 	(aTable createFieldNamed: 'id' type: platform serial) bePrimaryKey.
 	aTable createFieldNamed: 'firstname' type: (platform varChar: 100).

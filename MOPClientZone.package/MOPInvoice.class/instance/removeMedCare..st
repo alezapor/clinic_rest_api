@@ -1,3 +1,3 @@
 removing
 removeMedCare: aPerformance
-	medicalCareList removeKey: aPerformance performanceCode
+	self medicalCareList remove: aPerformance

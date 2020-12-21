@@ -5,7 +5,7 @@ getSession
 	login := Login new
 		database: PostgreSQLPlatform new;
 		username: 'postgres';
-		password: 'admin';
+		password: 'postgres';
 		connectString: 'localhost:5432_clientZone';
 		encodingStrategy: #utf8;
 		yourself.

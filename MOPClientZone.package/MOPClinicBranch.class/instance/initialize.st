@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	doctorList := Dictionary new
+	doctorList := SortedCollection new sortBlock: [ :a :b | a id < b id ]

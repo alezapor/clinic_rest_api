@@ -1,6 +1,6 @@
-as yet unclassified
+class models
 classModelForMOPDoctor: aClassModel
 	aClassModel newAttributeNamed: #id.
 	aClassModel newAttributeNamed: #firstName.
 	aClassModel newAttributeNamed: #lastName.
-	aClassModel newAttributeNamed: #specializationList collectionOf: MOPClinicBranch 
+	aClassModel newAttributeNamed: #appointmentList collection: Set of: MOPAppointment 

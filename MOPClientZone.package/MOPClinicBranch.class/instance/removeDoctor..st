@@ -1,3 +1,5 @@
 removing
 removeDoctor: aDoc
-	doctorList removeKey: aDoc id
+	self seniorDoctor = aDoc ifTrue: [ seniorDoctor := nil ].
+	self doctorList remove: aDoc ifAbsent: [ ^ self ]
+	

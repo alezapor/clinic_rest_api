@@ -1,4 +1,4 @@
-as yet unclassified
+descriptors
 descriptorForMOPClinicBranch: aDescriptor
 	| table |
 	table := self tableNamed: 'BRANCH'.
@@ -9,6 +9,8 @@ descriptorForMOPClinicBranch: aDescriptor
 	(aDescriptor newMapping: DirectMapping)
 		from: #name
 		to: (table fieldNamed: 'name').
+	(aDescriptor newMapping: OneToOneMapping)
+		attributeName: #seniorDoctor.
 	(aDescriptor newMapping: ManyToManyMapping)
 		attributeName: #doctorList;
 		referenceClass: MOPDoctor;

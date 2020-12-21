@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"owner",
 		"insuranceCompany",
 		"validFrom",
 		"validTo"

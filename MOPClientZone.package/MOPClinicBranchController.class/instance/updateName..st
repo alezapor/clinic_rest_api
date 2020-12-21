@@ -1,6 +1,6 @@
 handling
 updateName: aTeapotRequest
-	| branch |
-	branch := self service get: (aTeapotRequest at: #id).
-	branch name: (aTeapotRequest at: #name).
-	^ self service update: branch
+	self service
+		setName: (aTeapotRequest at: #name)
+		byId: (aTeapotRequest at: #id).
+	^ 'Name of branch updated!'

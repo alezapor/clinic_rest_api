@@ -1,3 +1,3 @@
 removing
 removeAppointment: anAppointment
-	appointmentList removeKey: anAppointment id
+	self appointmentList remove: anAppointment 

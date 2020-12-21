@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "MOPService",
+	"category" : "MOPClientZone-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"doctorService",
+		"invoiceService",
+		"reportService",
+		"clientService"
+	],
+	"name" : "MOPAppointmentService",
+	"type" : "normal"
+}
