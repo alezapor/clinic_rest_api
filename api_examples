@@ -1,0 +1,326 @@
+"Testování API"
+
+
+"Doctor"
+
+ZnClient new
+url: 'http://localhost:8080/doctor';
+formAt: 'firstName' put: 'C';
+formAt: 'lastName' put: 'D';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/doctors';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/doctor/3';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/doctor/4/name';
+formAt: 'firstName' put: 'SSsk';
+formAt: 'lastName' put: 'KP';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/doctor/2';
+delete.
+
+"Branch"
+
+ZnClient new
+url: 'http://localhost:8080/branch';
+formAt: 'name' put: 'Cardiology';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/branch/2/name';
+formAt: 'name' put: 'Cardiology2';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/branch/3/senior';
+formAt: 'senior' put: '4';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/branches';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/branch/3';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/branch/2';
+delete.
+
+"BRANCH DOC"
+
+ZnClient new
+url: 'http://localhost:8080/branch/1/doctors';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/branch/3/doctor/1';
+put.
+
+ZnClient new
+url: 'http://localhost:8080/branch/2/doctor/1';
+delete.
+
+"Diagnosis"
+
+ZnClient new
+url: 'http://localhost:8080/diagnosis';
+formAt: 'name' put: 'Otitis externa acuta';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/diagnosis/1/name';
+formAt: 'name' put: 'Otitis externa acuta';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/diagnoses';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/diagnosis/1';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/diagnosis/1';
+delete.
+
+"Medcare"
+
+ZnClient new
+url: 'http://localhost:8080/medcare';
+formAt: 'name' put: 'cleaning1';
+formAt: 'cost' put: '100';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/medcare/1/name';
+formAt: 'name' put: 'cleaning';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/medcare/1/cost';
+formAt: 'cost' put: '200';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/medcares';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/medcare/1';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/medcare/2';
+delete.
+
+"Insurance"
+
+ZnClient new
+url: 'http://localhost:8080/insurance';
+formAt: 'insuranceCompany' put: 'AXA';
+formAt: 'validFrom' put: '2010-12-16';
+formAt: 'validTo' put: '2020-12-16';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/insurance/1/validity';
+formAt: 'validFrom' put: '2011-12-16';
+formAt: 'validTo' put: '2021-12-16';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/insurance/1/company';
+formAt: 'company' put: 'AXAa';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/insurances';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/insurance/1';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/insurance/2';
+delete.
+
+"Client"
+
+ZnClient new
+url: 'http://localhost:8080/client';
+formAt: 'firstName' put: 'Client';
+formAt: 'lastName' put: 'D';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/clients';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/client/3';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/client/3/appointments';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/client/3/name';
+formAt: 'firstName' put: 'SSsk';
+formAt: 'lastName' put: 'KP';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/client/3/birthday';
+formAt: 'birthday' put: '1998-08-12';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/client/3/email';
+formAt: 'email' put: 'alex-skate@mail.ru';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/client/3/address';
+formAt: 'address' put: 'Zelena 2 18000 Praha';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/client/4/insurance';
+formAt: 'insurance' put: '3';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/client/4';
+delete.
+
+"Invoice"
+
+ZnClient new
+url: 'http://localhost:8080/invoice';
+formAt: 'date' put: '2020-12-20';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/invoice/1/date';
+formAt: 'date' put: '2021-12-20';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/invoice/1/status';
+formAt: 'status' put: 'unpaid';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/invoices';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/invoice/1';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/invoice/1/medcares';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/invoice/1/medcare/3';
+put.
+
+ZnClient new
+url: 'http://localhost:8080/invoice/1/medcare/3';
+delete.
+
+ZnClient new
+url: 'http://localhost:8080/invoice/2';
+delete.
+
+"Report"
+
+ZnClient new
+url: 'http://localhost:8080/medreport';
+formAt: 'description' put: 'Descriptiondsaf;lsdlfkdl;vllemg;fs';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/medreport/4/description';
+formAt: 'description' put: 'WTF';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/medreports';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/medreport/1';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/medreport/1/diagnoses';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/medreport/1/diagnosis/2';
+put.
+
+ZnClient new
+url: 'http://localhost:8080/medreport/2';
+delete.
+
+"Invoice"
+
+ZnClient new
+url: 'http://localhost:8080/appointment';
+formAt: 'patient' put: '3';
+formAt: 'doctor' put: '1';
+formAt: 'date' put: '2020-12-20 12:45:00';
+post.
+
+ZnClient new
+url: 'http://localhost:8080/appointment/1/patient';
+formAt: 'patient' put: '5';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/appointment/1/doctor';
+formAt: 'doctor' put: '2';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/appointment/1/date';
+formAt: 'date' put: '2020-11-22 11:10';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/appointment/1/invoice';
+formAt: 'invoice' put: '1';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/appointment/1/report';
+formAt: 'report' put: '4';
+patch.
+
+ZnClient new
+url: 'http://localhost:8080/appointment/1';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/appointments';
+get.
+
+ZnClient new
+url: 'http://localhost:8080/appointment/3';
+delete.
