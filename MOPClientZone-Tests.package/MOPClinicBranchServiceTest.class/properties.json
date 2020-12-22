@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "MOPServiceTest",
+	"category" : "MOPClientZone-Tests-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"branch",
+		"doctorService",
+		"doctor"
+	],
+	"name" : "MOPClinicBranchServiceTest",
+	"type" : "normal"
+}

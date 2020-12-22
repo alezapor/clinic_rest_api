@@ -1,4 +1,4 @@
 endpoints
 create
 	<controllerendpoint>
-	teapot POST: '/medreport' -> [ :req | self create: req]
+	teapot POST: '/invoice' -> [ :req | self create: req]

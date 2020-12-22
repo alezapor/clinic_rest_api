@@ -1,7 +1,7 @@
 actions
 setReport: aRepId byId: anId
-	| branch report |
+	| appointment report |
 	self dbSession
 		inUnitOfWorkDo: [ report := self reportService get: aRepId.
-			branch := self get: anId.
-			branch report: report ]
+			appointment := self get: anId.
+			appointment report: report ]

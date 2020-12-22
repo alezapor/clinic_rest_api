@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "MOPClientZone-Tests-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"service",
+		"session"
+	],
+	"name" : "MOPServiceTest",
+	"type" : "normal"
+}

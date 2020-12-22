@@ -6,7 +6,7 @@ createWithPatientId: aClientId doctorId: aDocId date: aDate
 	appointment := MOPAppointment new
 		patient: client;
 		doctor: doc;
-		date: aDate;
+		dateTime: aDate;
 		yourself.
 	dbSession save: appointment.
 	^ appointment

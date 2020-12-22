@@ -1,4 +1,4 @@
 endpoints
 delete
 	<controllerendpoint>
-	teapot DELETE: '/branch/<id>' -> [ :req | self delete: req]
+	teapot DELETE: '/medreport/<id>' -> [ :req | self delete: req]

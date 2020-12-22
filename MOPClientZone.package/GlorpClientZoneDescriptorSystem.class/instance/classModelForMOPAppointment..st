@@ -5,4 +5,4 @@ classModelForMOPAppointment: aClassModel
 	aClassModel newAttributeNamed: #doctor type: MOPDoctor.
 	aClassModel newAttributeNamed: #dateTime.
 	aClassModel newAttributeNamed: #report type: MOPMedReport.
-	aClassModel newAttributeNamed: #invoice type: MOPInvoice.
+	aClassModel newAttributeNamed: #invoice type: MOPInvoice

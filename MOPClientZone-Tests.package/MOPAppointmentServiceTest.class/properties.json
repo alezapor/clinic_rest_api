@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "MOPServiceTest",
+	"category" : "MOPClientZone-Tests-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"apt",
+		"doctorService",
+		"clientService",
+		"client",
+		"doctor",
+		"reportService",
+		"invoiceService",
+		"invoice",
+		"report",
+		"client2",
+		"doctor2"
+	],
+	"name" : "MOPAppointmentServiceTest",
+	"type" : "normal"
+}

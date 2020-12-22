@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "TestCase",
-	"category" : "MOPClientZone-Tests",
+	"category" : "MOPClientZone-Tests-Entities",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -1,4 +1,4 @@
 endpoints
 getAll 
 	<controllerendpoint>
-	teapot GET: '/branches' -> [ :req | self getAll: req]
+	teapot GET: '/medreports' -> [ :req | self getAll: req]

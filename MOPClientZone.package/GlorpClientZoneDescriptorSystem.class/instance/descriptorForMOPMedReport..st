@@ -9,8 +9,6 @@ descriptorForMOPMedReport: aDescriptor
 	(aDescriptor newMapping: DirectMapping)
 		from: #description
 		to: (table fieldNamed: 'description').
-	(aDescriptor newMapping: OneToOneMapping) attributeName: #patient.
-	(aDescriptor newMapping: OneToOneMapping) attributeName: #doctor.
 	(aDescriptor newMapping: ManyToManyMapping)
 		attributeName: #diagnosisList;
 		referenceClass: MOPDiagnosis;

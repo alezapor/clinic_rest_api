@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "MOPServiceTest",
+	"category" : "MOPClientZone-Tests-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"medcare"
+	],
+	"name" : "MOPMedCareServiceTest",
+	"type" : "normal"
+}
