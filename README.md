@@ -10,3 +10,5 @@ server createTables.
 ```
 **Spuštění serveru:**
 `server := MOPClientZoneServer startWith: MOPPostgresDatabaseGlorpConnector new.`
+
+**Příklady testování API:**  [api_examples](https://gitlab.fit.cvut.cz/zaporole/ni-mop/blob/master/api_examples)
