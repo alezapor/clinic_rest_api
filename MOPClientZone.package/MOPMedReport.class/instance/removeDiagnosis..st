@@ -1,3 +1,3 @@
 removing
 removeDiagnosis: aDiagnosis
-	diagnosisList removeKey: aDiagnosis code
+	self diagnosisList remove: aDiagnosis ifAbsent: [ ^self ]

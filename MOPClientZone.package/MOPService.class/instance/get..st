@@ -1,3 +1,3 @@
 actions
 get: id
-	^ dbSession read: self entityClass  where: [ :each | each id = id ]
+	^ dbSession readOneOf: self entityClass  where: [ :each | each id = id ]

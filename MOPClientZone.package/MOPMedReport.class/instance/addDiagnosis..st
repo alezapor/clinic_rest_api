@@ -1,3 +1,3 @@
 adding
 addDiagnosis: aDiagnosis
-	diagnosisList at: aDiagnosis code put: aDiagnosis
+	self diagnosisList add: aDiagnosis

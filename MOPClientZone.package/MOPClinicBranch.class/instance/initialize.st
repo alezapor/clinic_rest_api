@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	doctorList := Dictionary new
+	doctorList := Set new

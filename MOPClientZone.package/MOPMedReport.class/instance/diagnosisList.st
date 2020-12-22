@@ -1,3 +1,3 @@
 accessing
 diagnosisList
-	^ diagnosisList
+	^ diagnosisList ifNil: [ diagnosisList := Set new ]

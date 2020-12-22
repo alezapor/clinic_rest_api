@@ -1,3 +1,3 @@
 adding
 addAppointment: anAppointment 
-	appointmentList at: anAppointment id put: anAppointment 
+	self appointmentList add: anAppointment 

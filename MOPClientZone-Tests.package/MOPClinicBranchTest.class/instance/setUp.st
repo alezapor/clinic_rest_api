@@ -1,3 +1,3 @@
-tests
+running
 setUp
-	branch := MOPClinicBranch new.
+	branch := MOPClinicBranch new name: 'Cardiology'.

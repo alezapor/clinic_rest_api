@@ -5,4 +5,5 @@ neoJsonMapping: mapper
 		do: [ :mapping | 
 			mapping
 				mapInstVar: #name;
+				mapInstVar: #seniorDoctor;
 				mapInstVar: #doctorList ]

@@ -1,12 +1,11 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "OleksandrZaporozhchenko 12/22/2020 01:45",
 	"super" : "MOPEntity",
 	"category" : "MOPClientZone-Entities",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"appointment",
 		"medicalCareList",
 		"status",
 		"dateOfIssue"

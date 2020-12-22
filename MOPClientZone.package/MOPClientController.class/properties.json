@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MOPController",
+	"category" : "MOPClientZone-Controllers",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"insuranceService",
+		"appointmentService"
+	],
+	"name" : "MOPClientController",
+	"type" : "normal"
+}

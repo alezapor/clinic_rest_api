@@ -1,3 +1,3 @@
 accessing
 medicalCareList
-	^ medicalCareList
+	^ medicalCareList ifNil: [ medicalCareList := Set new ]

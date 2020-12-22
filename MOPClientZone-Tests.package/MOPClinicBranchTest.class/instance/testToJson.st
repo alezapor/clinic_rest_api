@@ -1,3 +1,5 @@
 tests
 testToJson
-	self assert: (NeoJSONWriter toString: branch) equals: '{"doctorList":{}}'
+	self
+		assert: (NeoJSONWriter toString: branch)
+		equals: '{"name":"Cardiology","doctorList":[]}'

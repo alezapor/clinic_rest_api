@@ -1,3 +1,3 @@
 adding
 addMedCare: aPerformance
-	medicalCareList at: aPerformance performanceCode put: aPerformance 
+	self medicalCareList add: aPerformance 

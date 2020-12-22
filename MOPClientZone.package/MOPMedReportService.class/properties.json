@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MOPService",
+	"category" : "MOPClientZone-Services",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"diagnosisService"
+	],
+	"name" : "MOPMedReportService",
+	"type" : "normal"
+}

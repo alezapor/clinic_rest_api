@@ -1,5 +1,6 @@
-as yet unclassified
+class models
 classModelForMOPClinicBranch: aClassModel
 	aClassModel newAttributeNamed: #id.
 	aClassModel newAttributeNamed: #name.
-	aClassModel newAttributeNamed: #doctorList collectionOf: MOPDoctor 
+	aClassModel newAttributeNamed: #seniorDoctor type: MOPDoctor.
+	aClassModel newAttributeNamed: #doctorList collection: Set of: MOPDoctor 

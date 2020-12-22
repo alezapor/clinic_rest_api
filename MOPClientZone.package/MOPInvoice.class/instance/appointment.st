@@ -1,3 +1,0 @@
-accessing
-appointment
-	^ appointment

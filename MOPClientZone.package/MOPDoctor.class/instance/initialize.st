@@ -1,4 +1,4 @@
-initialization
-initialize
+accessing
+initialize 
 	super initialize.
-	specializationList := Dictionary new
+	appointmentList := Set new

@@ -1,4 +1,4 @@
 endpoints
-get 
+get
 	<controllerendpoint>
-	teapot GET: '/branch/<id>' -> [ :req | self get: req]
+	teapot GET: '/branch/<id>' -> [ :req | self get: req ]

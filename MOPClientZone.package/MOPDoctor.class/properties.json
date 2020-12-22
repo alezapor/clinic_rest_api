@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "OleksandrZaporozhchenko 12/22/2020 01:41",
 	"super" : "MOPEntity",
 	"category" : "MOPClientZone-Entities",
 	"classinstvars" : [ ],
@@ -8,7 +8,7 @@
 	"instvars" : [
 		"firstName",
 		"lastName",
-		"specializationList"
+		"appointmentList"
 	],
 	"name" : "MOPDoctor",
 	"type" : "normal"
